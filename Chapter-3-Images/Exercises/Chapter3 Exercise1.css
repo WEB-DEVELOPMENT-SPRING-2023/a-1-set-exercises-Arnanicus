@@ -1,0 +1,11 @@
+img {
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-left: 700px;
+    filter:contrast(120%) sepia(30%) drop-shadow(8px 8px 10px black);
+  }
+
+.imgcred1{
+    
+    text-align: center;
+  }
