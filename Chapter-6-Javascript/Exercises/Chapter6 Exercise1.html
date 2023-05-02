@@ -7,23 +7,23 @@
     <title>Petrol Calculator</title>
     <link rel="stylesheet" href="Chapter6 Exercise1.css">
   </head>
-  <body class="bgimg">
-    <h1>Petrol Calculator</h1>
+  <body class="bgimg"> <!--This class allows for the page to have a background image-->
+    <h1>Petrol Calculator</h1> <!-- This is the title of the page. -->
 
-    <div class="bg">
-    <form name="petcal">
+    <div class="bg">  <!-- This div element encases all the elements of the page into one class, which allows for styling.-->
+    <form name="petcal"> <!-- This form is the body of the calculator -->
 
-      <label for = num1 class="tt"> Cost of Petrol per Liter</label><br>   
-      <input type="text" id="num1" value="1.72"><br>
+      <label for = num1 class="tt"> Cost of Petrol per Liter</label><br>  <!-- This displays the first value. -->  
+      <input type="text" id="num1" value="1.72"><br> <!-- This displays the default value, but allows for users to input their own value.-->
 
-      <label for = num2 class="tt">Number of Liters Purchased</label><br>
-      <input type="text" id="num2" value="0"><br>
+      <label for = num2 class="tt">Number of Liters Purchased</label><br> <!-- This displays the second value. -->
+      <input type="text" id="num2" value="0"><br> <!-- This allows for the user to enter their desired value. -->
 
-      <label for = totalcost class="tt">Total Cost of Petrol Purchased</label><br>
-      <p class="tcdisplay" id="totalcost"></p>
+      <label for = totalcost class="tt">Total Cost of Petrol Purchased</label><br> <!-- This wikll display the final value. -->
+      <p class="tcdisplay" id="totalcost"></p> <!-- This will also display the final value, though in a word format. -->
 
-      <input type="button" class="button" onclick="calc()" value="Calculate"/></button>
-      <script src="Chapter6 Exercise1.js"></script>
+      <input type="button" class="button" onclick="calc()" value="Calculate"/></button> <!-- This buton calculates the first and second values together. -->
+      <script src="Chapter6 Exercise1.js"></script> <!-- This allows the javascript to take ffect on the html page. -->
     </form>
 
 
