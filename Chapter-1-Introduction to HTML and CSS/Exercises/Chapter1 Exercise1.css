@@ -1,0 +1,39 @@
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+    padding: 45px;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.centertext{
+    margin: 50px 650px;
+    list-style-position: inside;
+    text-align:justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    border: 10px burlywood;
+    border-style:dashed;
+    margin-bottom: 35px;
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+li{
+    margin:20px 0px;
+}
+
+ol{
+    margin-right:60px;
+}
